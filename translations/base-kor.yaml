@@ -40,7 +40,7 @@ steamPage:
 
         이 게임에는 18개의 레벨이 있습니다 (이것 만으로도 여러분은 이미 몇시간이 걸렸을 거예요!) 하지만 저는 항상 새로운 콘텐츠를 추가하고 있습니다 - 계획해 놓은 것들이 많습니다!
 
-        게임을 구입하면 추가 기능이 있는 독립 실행형 버전을 이용할 수 있으며 새로 개발된 기능도 이용할 수 있습니다.
+        게임을 구입하면 추가 기능이 있는 독립 실행형 버전을 이용할 수 있으며 새롭게 개발된 기능도 이용할 수 있습니다.
 
         [b]유료 버전의 장점[/b]
 
@@ -201,16 +201,16 @@ dialogs:
             설정을 적용하려면 게임을 다시 시작해야 됩니다.
 
     editKeybinding:
-        title: 키바인딩 바꾸기
+        title: 단축키 바꾸기
         desc: 당신이 원하는 키나 마우스 버튼을 눌러서 바꾸거나 ESC를 눌러 취소하세요.
 
     resetKeybindingsConfirmation:
-        title: 키바인딩 재설정
-        desc: 이것은 모든 키바인딩을 기본값으로 초기화합니다.
+        title: 단축키 재설정
+        desc: 이것은 모든 단축키를 기본값으로 초기화합니다.
 
     keybindingsResetOk:
-        title: 키바인딩 재설정 완료
-        desc: 모든 키바인딩이 기본값으로 재설정 되었습니다!
+        title: 단축키 재설정 완료
+        desc: 모든 단축키가 기본값으로 재설정 되었습니다!
 
     featureRestriction:
         title: 데모 버전
@@ -218,7 +218,7 @@ dialogs:
 
     oneSavegameLimit:
         title: 저장파일 개수 제한
-        desc: 데모 버전에서는 저장 파일을 한 번에 한 개만 사용할 수 있습니다. 이미 있는 저장 파일을 지우거나 유료 버전을 구입 해주새요.
+        desc: 데모 버전에서는 저장 파일을 한 번에 한 개만 사용할 수 있습니다. 기존의 저장 파일을 지우거나 유료 버전을 구입 해주세요.
 
     updateSummary:
         title: 신규 버전!
@@ -247,10 +247,10 @@ dialogs:
             복사 기능은 아직 열리지 않았습니다! 레벨을 올려서 잠금을 해제하세요.
 
     keybindingsIntroduction:
-        title: 유용한 키바인딩
+        title: 유용한 단축키
         desc: >-
-            큰 공장을 지을 때 유용한 키바인딩이 많습니다!
-            아래를 확인하세요.<strong>나머지 키바인딩도 확인해보세요!</strong>!<br><br>
+            큰 공장을 지을 때 유용한 단축키가 많습니다!
+            아래를 확인하세요.<strong>나머지 단축키도 확인해보세요!</strong>!<br><br>
             <code class='keybinding'>CTRL</code> + Drag: 영역을 선택해서 복사/삭제하세요.<br>
             <code class='keybinding'>SHIFT</code>: 한꺼번에 여러 개의 건물을 배치하세요.<br>
             <code class='keybinding'>ALT</code>: 설치된 컨베이어 벨트의 방향을 바꾸세요.<br>
@@ -491,8 +491,8 @@ buildings:
             name: 회전기 (반시계방향)
             description: 도형을 반시계방향으로 90도 회전시킨다.
         fl:
-            name: Rotate (180)
-            description: Rotates shapes by 180 degrees.
+            name: 회전기 (180)
+            description: 도형을 180도 회전시긴다.
 
     stacker:
         default:
@@ -543,10 +543,10 @@ buildings:
     wire_crossings:
         default:
             name: 전선 분배기
-            description: Splits a energy wire into two.
+            description: 하나의 전선을 둘로 나누어 에너지를 전송한다.
         merger:
             name: 전선 병합기
-            description: Merges two energy wires into one.
+            description: 두개의 전선을 하나로 합쳐 에너지를 전송한다.
 
 storyRewards:
     # Those are the rewards gained from completing the store
@@ -764,11 +764,11 @@ settings:
                 다른 유형의 건물 배치 간에 자주 방향을 전환할 경우, 이 방법이 더 편할 수 있습니다.
 
 keybindings:
-    title: 키바인딩
+    title: 단축키
     hint: >-
         팁: CTRL, SHIFT, ALT를 활용하세요. 건물을 배치할 때 유용합니다.
 
-    resetKeybindings: 키바인딩 리셋
+    resetKeybindings: 단축키 리셋
 
     categoryLabels:
         general: 앱
@@ -841,7 +841,7 @@ about:
         이 게임은 오픈소스이고, <a href="https://github.com/tobspr"
         target="_blank">Tobias Springer</a>가 개발했습니다.<br><br>
 
-        이 게임을 위해 이바지하고 싶다면, <a href="<githublink>"
+        이 게임 기여하고 싶다면, <a href="<githublink>"
         target="_blank">shapez.io on github</a>를 확인하세요.<br><br>
 
         이 게임은 디스코드 커뮤니티의 공헌이 없었다면 불가능했을 것입니다.
@@ -862,7 +862,7 @@ demo:
         restoringGames: 게임 자장 파일 리스토어 하기
         importingGames: 게임 저장 파일 불러오기
         oneGameLimit: 게임 저장 파일 최대 1개
-        customizeKeybindings: 키바인딩 설정하기
+        customizeKeybindings: 단축키 설정하기
         exportingBase: 공장 전체를 이미지로 내보내기
 
     settingNotAvailable: 데모 버전에서 사용 불가
